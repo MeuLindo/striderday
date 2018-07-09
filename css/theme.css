@@ -667,7 +667,7 @@ p.social {
   background-color: #fff0;
   color: white;
   padding: 20%;
-  margin: -75%;
+  margin: -76%;
   flex-direction: row;
   border: none;
   font-size: 17px;
@@ -692,9 +692,13 @@ margin: 0;
   padding: 0;
 }
 
+.palestrante { transition: all .2s ease-in-out; }
+.palestrante:hover { transform: scale(1.0168); }
+
 .remover-pointer{
   cursor: default;
 }
 
-.palestrante { transition: all .2s ease-in-out; }
-.palestrante:hover { transform: scale(1.0168); }
+.remover-grow{
+  transition: none;
+}
