@@ -222,7 +222,7 @@ p.strong-info {
 
 #square-3 {
   position: absolute;
-  bottom: 0;
+  bottom: 100;
   right: 0;
 }
 
@@ -706,24 +706,56 @@ margin: 0;
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #eee;
-    color: #444;
+    color: #2b1353;
     cursor: pointer;
-    padding: 18px;
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
+    padding: 1%;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-    background-color: #ccc;
+    /* background-color: #ffffffc4; */
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 0 18px;
+    padding: 1% 1%;
     display: none;
     overflow: hidden;
+}
+
+.ajuste-legibilidade{
+  margin-top: 30px;
+}
+
+hr{
+  margin: 1%;
+}
+
+.texto {
+  color: #280b54;
+   font-family: 'Roboto', sans-serif;
+   font-weight: lighter;
+   font-size: 20px;
+   padding: 0 5%;
+   text-align: center;
+}
+
+.para-quem .card-text{
+  color: #78db22;
+  text-align: left;
+  line-height: 1;
+  margin-top: -100px;
+}
+
+.ajuste-margem{
+  margin-bottom: -80px;
+}
+
+.espacador{
+  margin-bottom: 50px;
 }
