@@ -759,3 +759,15 @@ hr{
 .espacador{
   margin-bottom: 50px;
 }
+iframe{
+  margin-top: 350px;
+  width: 730px;
+  height: 410px;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); /*ios 7 border-radius-bug */
+  -webkit-transform: rotate(0.000001deg); /*mac os 10.6 safari 5 border-radius-bug */
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+
+}
