@@ -484,7 +484,7 @@ a.cta-2 {
 
 footer {
   background: #280b54;
-  padding-top: 70px;
+  padding-top: 90px;
   padding-bottom: 15px;
   color: #ffffff;
   margin-top: 30px;
@@ -808,4 +808,5 @@ iframe{
   background-color: white;
   border-radius: 30px;
   padding: 0;
+  padding-bottom: 2%;
 }
