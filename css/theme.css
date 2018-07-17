@@ -827,3 +827,86 @@ iframe{
   padding: 0;
   padding-bottom: 2%;
 }
+
+.main-grid{
+  background-color: white;
+  margin: 2% 2%;
+  align-content: center;
+  padding: 1.5%;
+
+}
+
+#bg-verde{
+  background-color: #79dd21;
+  align-content: left;
+  padding: 1.5%;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#bg-verde h4{
+  margin-left: 10;
+}
+
+.main-grid h4{
+  font-size: 16px;
+  color: white;
+  margin: auto;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.dia h3{
+  margin: 0;
+}
+.dia{
+  width: 100%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+
+#bg-branco{
+  background-color: white;
+  padding: 0;
+  border-radius: 10px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  min-height: 50px;
+}
+
+#bg-branco p{
+    font-size: 16px;
+    color: #2b1353;
+    font-weight: normal;
+    text-transform: none;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    padding: 0.5%;
+}
+
+
+.happy-hour{
+  background-color: #2b1353!important;
+  padding: 0.5%!important;
+}
+
+
+.happy-hour p{
+  color: white!important;
+}
+.fonte-verde{
+  color: #79dd21!important;
+  font-weight: 900!important;
+}
+
+.bg-cinza{
+  background-color: #f1f1f1!important;
+}
+
+.mic-icon::before{
+  content: url("images/horario-icon.png")
+}
