@@ -607,7 +607,7 @@ p.social {
   }
 
   h2 {
-    
+
   }
 
   p.strong-info {
@@ -800,6 +800,14 @@ iframe{
   font-weight: 900;
   font-family: 'Roboto';
 }
+#programacao{
+  margin-top: -105px;
+}
+#programacao h4{
+  margin-left: 30px;
+  font-weight: 900;
+  font-family: 'Roboto';
+}
 .bg-top h2{
   color: white;
   padding: 0;
@@ -807,9 +815,9 @@ iframe{
 }
 
 #cabecalho{
-  margin-top: 180px;
+  margin-top: 100px;
   margin-left: -200px;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   z-index: 1000;
 }
 
