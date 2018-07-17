@@ -800,10 +800,10 @@ iframe{
   font-weight: 900;
   font-family: 'Roboto';
 }
-#programacao{
-  margin-top: -105px;
+#programacao-container{
+  margin-top: -210px;
 }
-#programacao h4{
+#programacao-container h4{
   margin-left: 30px;
   font-weight: 900;
   font-family: 'Roboto';
@@ -857,13 +857,31 @@ iframe{
 }
 .dia h3{
   margin: 0;
+  font-size: 40px;
+  color: #2b1353;
+  font-style: italic;
 }
 .dia{
   width: 100%;
   margin-bottom: 1%;
-  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
 }
 
+.dia-2{
+  width: 100%;
+  margin-bottom: 1%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dia-2 h3{
+  margin: 0;
+  font-size: 40px;
+  color: #2b1353;
+}
 
 #bg-branco{
   background-color: white;
@@ -907,6 +925,56 @@ iframe{
   background-color: #f1f1f1!important;
 }
 
-.mic-icon::before{
-  content: url("images/horario-icon.png")
+#programacao, #horario, #pessoas, #empresas {
+  margin: 10px 0 0 0 ;
+}
+h4#horario:before {
+    content: "";
+    display: inline;
+    background: url("../images/horario-icon.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+
+h4#programacao:before {
+    content: "";
+    display: inline;
+    background: url("../images/programacao-icon.png") no-repeat;
+    width: 21px;
+    height: 27px;
+    float: left;
+    margin: -5px 6px 0 0;
+}
+
+h4#pessoas:before {
+    content: "";
+    display: inline-block;
+    background: url("../images/palestrantes-icon.png") no-repeat;
+    width: 29px;
+    height: 29px;
+    float: left;
+    margin: -10px 6px 0 0;
+
+}
+h4#empresas:before {
+    content: "";
+    display: inline;
+    background: url("../images/empresas-icon.png") no-repeat;
+    width: 29px;
+    height: 24px;
+    float: left;
+    margin: -2px -2px 0 0;
+}
+
+p.mic:before {
+    content: "";
+    display: inline;
+    background: url("../images/mic-icon.png") no-repeat;
+    width: 40px;
+    height: 29px;
+    float: left;
+    margin: 10px 5px 0 0;
 }
