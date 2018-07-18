@@ -183,14 +183,14 @@ img#stroke-1 {
   display: block;
   position: absolute;
   right: 27%;
-  top: 340px;
+  top: 260px;;
 }
 
 img#stroke-2 {
   display: block;
   position: absolute;
   right: 0;
-  top: 330px;
+  top: 220px;
 }
 
 h2 {
@@ -816,7 +816,6 @@ iframe{
 
 #cabecalho{
   margin-top: 100px;
-  margin-left: -200px;
   margin-bottom: 200px;
   z-index: 1000;
 }
@@ -833,19 +832,21 @@ iframe{
   margin: 2% 2%;
   align-content: center;
   padding: 1.5%;
+  margin-right: 0;
 
 }
 
 #bg-verde{
   background-color: #79dd21;
   align-content: left;
-  padding: 1.5%;
+  padding: 1.5% 0;
   border-radius: 10px;
   width: 100%;
+  margin-right: 0;
 }
 
 #bg-verde h4{
-  margin-left: 10;
+  margin-left: 0;
 }
 
 .main-grid h4{
@@ -867,6 +868,7 @@ iframe{
   display: flex;
   align-items: center;
   margin-top: -20px;
+  padding-top: 1.5%;
 }
 
 .dia-2{
@@ -881,11 +883,12 @@ iframe{
   margin: 0;
   font-size: 40px;
   color: #2b1353;
+  font-style: italic;
 }
 
 #bg-branco{
   background-color: white;
-  padding: 0;
+  padding: 1% 0;
   border-radius: 10px;
   width: 100%;
   display:flex;
@@ -904,6 +907,8 @@ iframe{
     display: flex;
     justify-content: left;
     padding: 0.5%;
+    align-items: center;
+
 }
 
 
@@ -956,7 +961,7 @@ h4#pessoas:before {
     width: 29px;
     height: 29px;
     float: left;
-    margin: -10px 6px 0 0;
+    margin: -10px 3px 0 0;
 
 }
 h4#empresas:before {
@@ -966,7 +971,7 @@ h4#empresas:before {
     width: 29px;
     height: 24px;
     float: left;
-    margin: -2px -2px 0 0;
+    margin: -2px 8px 0 0;
 }
 
 p.mic:before {
@@ -977,4 +982,9 @@ p.mic:before {
     height: 29px;
     float: left;
     margin: 10px 5px 0 0;
+}
+
+#main-menu a{
+  display: inline-block;
+
 }
