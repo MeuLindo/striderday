@@ -43,7 +43,7 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse flex-column pt-md-5 mt-md-3" data-parallax-depth=".02" id="main-menu">
+          <div class="collapse navbar-collapse flex-column pt-md-5 mt-md-3"  id="main-menu">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a  href="index.html#sobre">Sobre</a>
@@ -76,8 +76,8 @@
     <div class="bg-primary position-relative bg-top">
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
-            <img class="logo mw-100" data-parallax-depth=".03" src="images/logo.png" alt="Strider Day">
+          <div class="col-md-3">
+            <a href="index.html"><img class="logo mw-100" data-parallax-depth=".03" src="images/logo.png" alt="Strider Day"></a>
 
           </div>
           <div class="col-md-7" id="cabecalho">
@@ -88,10 +88,10 @@
         </div>
 
       </div>
-      <img id="stroke-1" data-parallax-depth=".03" src="images/stroke-1.png">
-      <img id="stroke-2" data-parallax-depth=".05" src="images/stroke-2.png">
+      <img id="stroke-1"  src="images/stroke-1.png">
+      <img id="stroke-2" src="images/stroke-2.png">
     </div>
-    <div id="programacao">
+    <div id="programacao-container">
       <div class="container">
         <div class="row">
           <div class="col-md-12 faq" >
@@ -109,19 +109,20 @@
 
             <div class="row" id="bg-verde">
               <div class="col-md-2">
-                <h4>Horário</h4>
+                <h4 id="horario">Horário</h4>
               </div>
-              <div class="col-md-5">
 
-                <h4>Programação</h4>
+              <div class="col-md-4">
+
+                <h4 id="programacao">Programação</h4>
               </div>
               <div class="col-md-3">
 
-                <h4>Palestrantes</h4>
+                <h4 id="pessoas" >Palestrantes</h4>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-3">
 
-                <h4>Empresas</h4>
+                <h4 id="empresas">Empresas</h4>
               </div>
             </div>
 <!-- Itens da programação       -->
@@ -130,7 +131,7 @@
               <div class="col-md-2">
                 <p>08:00 às 09:00</p>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-4">
 
                 <p><strong>Credenciamento</strong></p>
               </div>
@@ -138,7 +139,7 @@
 
                 <h4></h4>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-3">
 
                 <h4></h4>
               </div>
@@ -148,7 +149,7 @@
               <div class="col-md-2">
                     <p class="mic-icon">09:00 às 09:30</p>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-4">
 
                 <p><strong>Abertura</strong></p>
               </div>
@@ -156,8 +157,10 @@
                   <p>Luiz Tângari <br> André Savino <br>Ron Cowman <br> Ronaldo Giorgi</p>
 
               </div>
-              <div class="col-md-2">
-
+              <div class="col-md-3">
+                <p><strong>
+                  Strider <br> Syngenta
+                </strong></p>
 
               </div>
             </div>
@@ -165,13 +168,13 @@
               <div class="col-md-2 ">
                 <p>09:30 às 10:00</p>
               </div>
-              <div class="col-md-5">
-                <p>Como a tecnologia impacta na gestão e liderança nas empresas agrícolas</p>
+              <div class="col-md-4">
+                <p class="mic">Como a tecnologia impacta na gestão e liderança nas empresas agrícolas</p>
               </div>
               <div class="col-md-3">
                 <p>Marcelo Prado</p>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-3">
                 <p><strong>M Prado</strong></p>
               </div>
             </div>
@@ -180,13 +183,13 @@
               <div class="col-md-2 ">
                 <p>10:00 às 10:30</p>
               </div>
-              <div class="col-md-5">
-                <p>Abertura</p>
+              <div class="col-md-4">
+                <p class="mic">Palestra</p>
               </div>
               <div class="col-md-3">
                 <p>Lieven Cooreman</p>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-3">
                 <p><strong>Yara</strong></p>
               </div>
             </div>
@@ -194,13 +197,13 @@
               <div class="col-md-2 ">
                 <p>10:30 às 11:00</p>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-4">
                 <p class="fonte-verde">Coffee Break</p>
               </div>
               <div class="col-md-3">
                 <p></p>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-3">
                 <p></p>
               </div>
             </div>
@@ -209,13 +212,13 @@
                 <div class="col-md-2">
                   <p>11:00 às 12:20</p>
                 </div>
-                <div class="col-md-5">
-                  <p>Como ganhar competitividade com tecnologia de informação ainda em 2018</p>
+                <div class="col-md-4">
+                  <p class="mic">Como ganhar competitividade com tecnologia de informação ainda em 2018</p>
                 </div>
                 <div class="col-md-3">
                   <p>Rodrigo Guimarães <br> Edson Vendruscolo <br> Raul Guarinagna</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p><strong>Agrinvest <br> El Tejar <br> Tereos</strong></p>
                 </div>
             </div>
@@ -224,28 +227,28 @@
                 <div class="col-md-2">
                   <p>12:20 às 13:00</p>
                 </div>
-                <div class="col-md-5">
-                  <p>Case de sucesso</p>
+                <div class="col-md-4">
+                  <p class="mic">Case de sucesso</p>
                 </div>
                 <div class="col-md-3">
                   <p>Francisco Netto</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p><strong>Citrosuco</strong></p>
                 </div>
             </div>
 
             <div class="row bg-cinza" id="bg-branco">
                 <div class="col-md-2">
-                  <p>12:50 às 14:30</p>
+                  <p>13:00 às 14:30</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                   <p class="fonte-verde">Almoço</p>
                 </div>
                 <div class="col-md-3">
                   <p></p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p></p>
                 </div>
             </div>
@@ -254,14 +257,14 @@
                 <div class="col-md-2">
                   <p>14:30 às 15:30</p>
                 </div>
-                <div class="col-md-5">
-                  <p>O cenário mundial de uso de tecnologia para o agro</p>
+                <div class="col-md-4">
+                  <p class="mic">O cenário mundial de uso de tecnologia para o agro</p>
                 </div>
                 <div class="col-md-3">
                   <p>Rick Murdock <br> Reggie Strickland</p>
                 </div>
-                <div class="col-md-2">
-                  <p><strong>Ag Connect <br> Strickland Farming</strong></p>
+                <div class="col-md-3">
+                  <p><strong>Ag Connections <br> Strickland Farming</strong></p>
                 </div>
             </div>
 
@@ -269,13 +272,13 @@
                 <div class="col-md-2">
                   <p>15:30 às 16:00</p>
                 </div>
-                <div class="col-md-5">
-                  <p></p>
+                <div class="col-md-4">
+                  <p class="mic">Palestra</p>
                 </div>
                 <div class="col-md-3">
                   <p>Palestrante Convidado</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p></p>
                 </div>
             </div>
@@ -284,13 +287,13 @@
                 <div class="col-md-2">
                   <p>16:00 às 16:30</p>
                 </div>
-                <div class="col-md-5">
-                  <p><span>Coffee Break</span></p>
+                <div class="col-md-4">
+                  <p class="fonte-verde">Coffee Break</p>
                 </div>
                 <div class="col-md-3">
                   <p></p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p></p>
                 </div>
             </div>
@@ -299,30 +302,30 @@
                 <div class="col-md-2">
                   <p>16:30 às 17:30</p>
                 </div>
-                <div class="col-md-5">
-                  <p>As big techs e o agro</p>
+                <div class="col-md-4">
+                  <p class="mic">As big techs e o agro</p>
                 </div>
                 <div class="col-md-3">
                   <p>Haroldo Gali <br> Fiore Mangoni <br> Ulisses Mello</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p><strong>Google <br> Qualcomm <br> IBM</strong></p>
                 </div>
             </div>
 
             <div class="row" id="bg-branco">
                 <div class="col-md-2">
-                  <p>14:30 às 15:30</p>
+                  <p>17:30 às 18:30</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
 
-                  <p></p>
+                  <p class="mic">Palestra</p>
                 </div>
                 <div class="col-md-3">
                   <p>Carlos Magno <br> e convidados</p>
                 </div>
-                <div class="col-md-2">
-                  <p><strong>Climatempo</strong></p>
+                <div class="col-md-3">
+                  <p><strong>Climatempo e convidados</strong></p>
                 </div>
             </div>
 
@@ -330,20 +333,20 @@
                 <div class="col-md-2">
                   <p>18:30 às 22:30</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
 
                   <p><span class="fonte-verde"><strong>Happy Hour</strong></span></p>
                 </div>
                 <div class="col-md-3">
                   <p></p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p></p>
                 </div>
             </div>
 
     <!-- DIA 2 -->
-            <div class="row dia">
+            <div class="row dia-2">
 
                 <div class="col-md-1">
                   <img src="images/arrow.png" alt="">
@@ -358,29 +361,29 @@
                 <div class="col-md-2">
                   <p>09:30 às 10:00</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                   <p class="fonte-verde">Welcome Coffee</p>
                 </div>
                 <div class="col-md-3">
                   <p></p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p></p>
                 </div>
             </div>
 
             <div class="row bg-cinza" id="bg-branco">
                 <div class="col-md-2">
-                  <p>10:30 às 10:30</p>
+                  <p>10:00 às 10:30</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
 
-                  <p>Estratégias de integração com a plataforma John Deere</p>
+                  <p class="mic">Estratégias de integração com a plataforma John Deere</p>
                 </div>
                 <div class="col-md-3">
                   <p>João Pontes</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p><strong>John Deere</strong></p>
                 </div>
             </div>
@@ -388,29 +391,29 @@
                 <div class="col-md-2">
                   <p>10:30 às 11:30</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
 
-                  <p>Como ganhar competitividade com tecnologia de informação ainda em 2018</p>
+                  <p class="mic">Como ganhar competitividade com tecnologia de informação ainda em 2018</p>
                 </div>
                 <div class="col-md-3">
                   <p>Fabio Mota <br> Rodrigo Santos</p>
                 </div>
-                <div class="col-md-2">
-                  <p><strong>Raízen</strong></p>
+                <div class="col-md-3">
+                  <p><strong>Raízen <br> Cantagalo</strong></p>
                 </div>
             </div>
             <div class="row bg-cinza" id="bg-branco">
                 <div class="col-md-2">
                   <p>11:30 às 12:00</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
 
-                  <p>Como o uso de tecnologia pode garantir a sustentabilidade no agro </p>
+                  <p class="mic">Como o uso de tecnologia pode contribuir para a sustentabilidade no agro </p>
                 </div>
                 <div class="col-md-3">
                   <p>Aline Locks</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p><strong>Aliança da Terra</strong></p>
                 </div>
             </div>
@@ -418,14 +421,14 @@
                 <div class="col-md-2">
                   <p>12:00 às 13:30</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
 
-                  <p><span>Almoço</span></p>
+                  <p class="fonte-verde">Almoço</p>
                 </div>
                 <div class="col-md-3">
                   <p></p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p></p>
                 </div>
             </div>
@@ -433,14 +436,14 @@
                 <div class="col-md-2">
                   <p>13:30 às 14:00</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
 
-                  <p></p>
+                  <p class="mic">Palestra</p>
                 </div>
                 <div class="col-md-3">
                   <p>Palestrante Convidado</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p></p>
                 </div>
             </div>
@@ -448,14 +451,14 @@
                 <div class="col-md-2">
                   <p>14:00 às 14:30</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
 
-                  <p>O papel da indústria na oferta de tecnologia pro agro </p>
+                  <p class="mic">O papel da indústria na oferta de tecnologia pro agro </p>
                 </div>
                 <div class="col-md-3">
                   <p>André Savino</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p><strong>Syngenta</strong></p>
                 </div>
             </div>
@@ -463,14 +466,14 @@
                 <div class="col-md-2">
                   <p>14:30 às 15:15</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
 
-                  <p>Case de sucesso</p>
+                  <p class="mic">Case de sucesso</p>
                 </div>
                 <div class="col-md-3">
                   <p>Aurélio Pavinato</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p><strong>SLC</strong></p>
                 </div>
             </div>
@@ -478,13 +481,13 @@
                 <div class="col-md-2">
                   <p>15:15 às 15:45</p>
                 </div>
-                <div class="col-md-5">
-                  <p>Aplicação de inteligência artificial no agro </p>
+                <div class="col-md-4">
+                  <p class="mic">Aplicação de inteligência artificial no agro </p>
                 </div>
                 <div class="col-md-3">
                   <p>Luiz Tângari</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p><strong>Strider</strong></p>
                 </div>
             </div>
@@ -493,14 +496,14 @@
                 <div class="col-md-2">
                   <p>15:45 às 16:00</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                   <p class="fonte-verde">Encerramento</p>
                 </div>
                 <div class="col-md-3">
                   <p>Flora Viana</p>
                 </div>
-                <div class="col-md-2">
-                  <p></p>
+                <div class="col-md-3">
+                  <p><strong>Strider</strong></p>
                 </div>
             </div>
 
